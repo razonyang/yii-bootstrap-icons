@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RazonYang\Yii\Bootstrap\Icons;
+namespace RazonYang\Yii\Bootstrap\Icons\Assets;
 
 use Yiisoft\Assets\AssetBundle;
 use Yiisoft\Files\PathMatcher\PathMatcher;
