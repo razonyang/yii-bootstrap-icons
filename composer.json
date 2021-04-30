@@ -1,0 +1,35 @@
+{
+    "name": "razonyang/yii-bootstrap-icons",
+    "description": "Yii Framework Bootstrap Icons support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "razonyang",
+            "email": "razonyang@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "npm-asset/bootstrap-icons": "^1.4",
+        "yiisoft/assets": "1.0.x-dev",
+        "yiisoft/files": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RazonYang\\Yii\\Bootstrap\\Icons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RazonYang\\Yii\\Bootstrap\\Icons\\Tests\\": "tests"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

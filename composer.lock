@@ -1,0 +1,414 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "65c513aab5dea71a4c0c0a3769c23a28",
+    "packages": [
+        {
+            "name": "npm-asset/bootstrap-icons",
+            "version": "1.4.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/bootstrap-icons/-/bootstrap-icons-1.4.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "a18c1e692e02b84abbafe4856c3cd7cc6903908c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/a18c1e692e02b84abbafe4856c3cd7cc6903908c",
+                "reference": "a18c1e692e02b84abbafe4856c3cd7cc6903908c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/master"
+            },
+            "time": "2021-03-02T15:02:34+00:00"
+        },
+        {
+            "name": "yiisoft/aliases",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/aliases.git",
+                "reference": "fb37967d344de94430deae7bcb621ac97bb557f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/aliases/zipball/fb37967d344de94430deae7bcb621ac97bb557f6",
+                "reference": "fb37967d344de94430deae7bcb621ac97bb557f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4",
+                "roave/infection-static-analysis-plugin": "^1.5",
+                "spatie/phpunit-watcher": "^1.23",
+                "vimeo/psalm": "^4.2"
+            },
+            "type": "library",
+            "extra": {
+                "config-plugin-options": {
+                    "source-directory": "config"
+                },
+                "config-plugin": {
+                    "params": "params.php",
+                    "common": "common.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Aliases\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Named paths and URLs storage",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "alias"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/aliases/issues?state=open",
+                "source": "https://github.com/yiisoft/aliases",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-04-13T18:11:40+00:00"
+        },
+        {
+            "name": "yiisoft/assets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/assets.git",
+                "reference": "0892676722b6a016d74ce5029594f7140b5bf097"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/assets/zipball/0892676722b6a016d74ce5029594f7140b5bf097",
+                "reference": "0892676722b6a016d74ce5029594f7140b5bf097",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.4|^8.0",
+                "psr/log": "^1.1",
+                "yiisoft/aliases": "^1.1|^2.0",
+                "yiisoft/files": "^1.0",
+                "yiisoft/json": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "roave/infection-static-analysis-plugin": "^1.7",
+                "spatie/phpunit-watcher": "^1.23",
+                "vimeo/psalm": "^4.7",
+                "yiisoft/test-support": "^1.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "config": {
+                    "sort-packages": true
+                },
+                "config-plugin-options": {
+                    "source-directory": "config"
+                },
+                "config-plugin": {
+                    "params": "params.php",
+                    "web": "web.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Assets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Asset bundles and asset manager",
+            "homepage": "https://www.yiiframework.com/",
+            "keywords": [
+                "assets",
+                "library",
+                "yii"
+            ],
+            "support": {
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/assets/issues?state=open",
+                "source": "https://github.com/yiisoft/assets",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-04-21T23:12:53+00:00"
+        },
+        {
+            "name": "yiisoft/files",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/files.git",
+                "reference": "d747887e84caedabe288324ff6d911c2d61b71d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/files/zipball/d747887e84caedabe288324ff6d911c2d61b71d2",
+                "reference": "d747887e84caedabe288324ff6d911c2d61b71d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0",
+                "yiisoft/strings": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "roave/infection-static-analysis-plugin": "^1.6",
+                "spatie/phpunit-watcher": "^1.23",
+                "vimeo/psalm": "^4.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Files\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "files"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/files/issues?state=open",
+                "source": "https://github.com/yiisoft/files",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-02-10T22:00:31+00:00"
+        },
+        {
+            "name": "yiisoft/json",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/json.git",
+                "reference": "51b483aef1cd5d06ea02db3c40707bb6b41ed088"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/json/zipball/51b483aef1cd5d06ea02db3c40707bb6b41ed088",
+                "reference": "51b483aef1cd5d06ea02db3c40707bb6b41ed088",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "infection/infection": "^0.16.3",
+                "phan/phan": "^3.0",
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Json\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "json",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "json"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/json/issues?state=open",
+                "source": "https://github.com/yiisoft/json",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-08-26T12:21:14+00:00"
+        },
+        {
+            "name": "yiisoft/strings",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/strings.git",
+                "reference": "935d6ce668d5d5db58eef18174859a61fbf4b2c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/strings/zipball/935d6ce668d5d5db58eef18174859a61fbf4b2c2",
+                "reference": "935d6ce668d5d5db58eef18174859a61fbf4b2c2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "roave/infection-static-analysis-plugin": "^1.7",
+                "spatie/phpunit-watcher": "^1.23",
+                "vimeo/psalm": "^4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yiisoft\\Strings\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Yii - String Helper",
+            "homepage": "https://www.yiiframework.com/",
+            "keywords": [
+                "helper",
+                "string",
+                "yii"
+            ],
+            "support": {
+                "forum": "https://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/strings/issues",
+                "source": "https://github.com/yiisoft/strings",
+                "wiki": "https://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2021-02-10T20:59:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "yiisoft/assets": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
