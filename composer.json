@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "npm-asset/bootstrap-icons": "^1.4",
-        "yiisoft/assets": "1.0.x-dev",
+        "yiisoft/assets": "^1.0",
         "yiisoft/files": "^1.0"
     },
     "autoload": {
